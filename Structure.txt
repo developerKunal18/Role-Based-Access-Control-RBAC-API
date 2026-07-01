@@ -1,0 +1,47 @@
+🧠 Why This Is Important
+
+Authentication answers:
+Who are you?
+
+Authorization answers:
+What are you allowed to do?
+
+Example:
+Admin
+ ├── Create Users ✔
+ ├── Delete Users ✔
+ └── View Reports ✔
+
+Manager
+ ├── View Reports ✔
+ ├── Manage Orders ✔
+ └── Delete Users ❌
+
+User
+ ├── View Profile ✔
+ └── Edit Profile ✔
+
+Benefits:
+✅ Secure APIs
+✅ Fine-grained permissions
+✅ Enterprise-ready authorization
+✅ Easy role management
+
+Used By:
+Django Admin
+AWS IAM
+Azure RBAC
+Kubernetes RBAC
+Enterprise ERP Systems
+
+🛠 Tech Stack
+Python
+Flask
+Flask-JWT-Extended
+
+📂 Project Structure
+rbac-api/
+│
+├── app.py
+├── requirements.txt
+└── README.md
